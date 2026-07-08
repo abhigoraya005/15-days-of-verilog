@@ -2,58 +2,65 @@
 
 # 🚀 15 Days of Verilog
 
-### *A Beginner-to-Intermediate Verilog HDL Learning Journey*
+### **A Beginner-to-Intermediate Verilog HDL Learning Journey**
 
-<p>
-Build digital logic circuits • Learn RTL Design • Write Testbenches • Simulate Hardware • Prepare for FPGA Development
+<p align="center">
+Build • Simulate • Verify • Learn RTL Design • Prepare for FPGA Development
 </p>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/abhigoraya005/15-days-of-verilog?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/abhigoraya005/15-days-of-verilog?style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/abhigoraya005/15-days-of-verilog?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Verilog](https://img.shields.io/badge/Language-Verilog-red?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/abhigoraya005/15-days-of-verilog?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-Verilog-red?style=for-the-badge)
+
+---
+
+### 📚 Learning Verilog One Day at a Time
 
 </div>
 
 ---
 
-# 📖 Overview
+# 📖 About
 
-This repository documents my **15-day journey** of learning **Verilog HDL** from the fundamentals of digital logic to intermediate RTL design.
+This repository documents my **15-Day Verilog Learning Journey**, covering the fundamentals of **Digital Logic Design**, **RTL Design**, **Simulation**, and **FPGA Development** through daily hands-on projects.
 
-The goal is to build a strong understanding of:
-
-* Digital Logic Design
-* Verilog HDL
-* RTL Design
-* Testbench Development
-* Functional Simulation
-* FPGA Fundamentals
-
-Each day's folder contains:
+Each day's project includes:
 
 * 💻 Verilog Source Code
 * 🧪 Testbench
 * 📄 Documentation
-* ✅ Simulation Output
+* 📊 Simulation Results
 * 📚 Learning Notes
+
+---
+
+# ✨ Repository Highlights
+
+* ✅ 15 Practical Projects
+* ✅ Beginner Friendly
+* ✅ RTL Design
+* ✅ Functional Simulation
+* ✅ Testbench Development
+* ✅ FPGA-Oriented Learning
+* ✅ GitHub Portfolio Ready
 
 ---
 
 # 🛠 Tech Stack
 
-| Tool           | Purpose              |
-| -------------- | -------------------- |
-| VS Code        | Code Editor          |
-| Icarus Verilog | Compiler & Simulator |
-| GTKWave        | Waveform Viewer      |
-| Git            | Version Control      |
-| GitHub         | Project Hosting      |
+| Tool           | Purpose                 |
+| -------------- | ----------------------- |
+| VS Code        | Development Environment |
+| Icarus Verilog | Compiler & Simulator    |
+| GTKWave        | Waveform Viewer         |
+| Git            | Version Control         |
+| GitHub         | Repository Hosting      |
 
 ---
 
-# 🗺 Learning Roadmap
+# 📅 Learning Roadmap
 
 | Day | Topic                 | Project                             | Status |
 | :-: | --------------------- | ----------------------------------- | :----: |
@@ -61,17 +68,31 @@ Each day's folder contains:
 |  2  | Adders                | Half Adder & Full Adder             |    ✅   |
 |  3  | Multiplexers          | 2:1 & 4:1 Multiplexer               |    ✅   |
 |  4  | Decoder & Encoder     | Decoder, Encoder & Priority Encoder |    ✅   |
-|  5  | Arithmetic Logic Unit | 4-bit ALU                           |   🚧   |
-|  6  | Flip-Flops            | D, JK, SR & T Flip-Flops            |    ⏳   |
+|  5  | Arithmetic Logic Unit | 4-bit ALU                           |    ✅   |
+|  6  | Flip-Flops            | D, JK, SR & T Flip-Flops            |    ✅   |
 |  7  | Counters              | Up, Down & Mod Counters             |    ⏳   |
 |  8  | Shift Registers       | SISO, SIPO, PISO & PIPO             |    ⏳   |
 |  9  | FSM                   | Traffic Light Controller            |    ⏳   |
 |  10 | Sequence Detector     | 1011 Sequence Detector              |    ⏳   |
 |  11 | UART TX               | UART Transmitter                    |    ⏳   |
 |  12 | UART RX               | UART Receiver                       |    ⏳   |
-|  13 | Memory                | RAM Module                          |    ⏳   |
+|  13 | RAM                   | Single-Port RAM                     |    ⏳   |
 |  14 | SPI                   | SPI Master                          |    ⏳   |
 |  15 | Final Project         | Digital System Integration          |    ⏳   |
+
+---
+
+# 📊 Progress
+
+| Completed           | Remaining      |
+| ------------------- | -------------- |
+| **6 / 15 Projects** | **9 Projects** |
+
+**Progress:** **40% Complete**
+
+```
+████████░░░░░░░░░░░░ 40%
+```
 
 ---
 
@@ -99,41 +120,20 @@ Each day's folder contains:
 
 ---
 
-# 📊 Current Progress
-
-```
-██████░░░░░░░░░░░░  30%
-
-✅ Day 1
-✅ Day 2
-✅ Day 3
-✅ Day 4
-🚧 Day 5
-```
-
----
-
 # 🎯 Learning Objectives
 
-✔ Learn Verilog HDL from scratch
-
-✔ Design combinational circuits
-
-✔ Design sequential circuits
-
-✔ Build synthesizable RTL
-
-✔ Write reusable testbenches
-
-✔ Simulate hardware designs
-
-✔ Understand FPGA development workflow
+* Learn Verilog HDL from scratch
+* Understand Digital Logic Design
+* Build Synthesizable RTL
+* Write Testbenches
+* Simulate Hardware Designs
+* Develop FPGA Design Fundamentals
 
 ---
 
 # 📚 Topics Covered
 
-## Combinational Logic
+### ✅ Combinational Logic
 
 * Logic Gates
 * Half Adder
@@ -142,55 +142,49 @@ Each day's folder contains:
 * Decoder
 * Encoder
 * Priority Encoder
-* Arithmetic Logic Unit
+* 4-bit ALU
+
+### 🚧 Sequential Logic
+
+* D Flip-Flop
+* SR Flip-Flop
+* JK Flip-Flop
+* T Flip-Flop
+* Counters *(Upcoming)*
+* Shift Registers *(Upcoming)*
+
+### 🚧 Communication Protocols
+
+* UART *(Upcoming)*
+* SPI *(Upcoming)*
+
+### 🚧 Memory Design
+
+* RAM *(Upcoming)*
 
 ---
 
-## Sequential Logic *(Upcoming)*
+# 💡 Skills Developed
 
-* Flip-Flops
-* Counters
-* Shift Registers
-* FSM
-
----
-
-## Communication Protocols *(Upcoming)*
-
-* UART
-* SPI
+![Verilog](https://img.shields.io/badge/Verilog-HDL-red)
+![RTL](https://img.shields.io/badge/RTL-Design-blue)
+![Digital Logic](https://img.shields.io/badge/Digital-Logic-success)
+![Simulation](https://img.shields.io/badge/Simulation-Icarus-important)
+![Testbench](https://img.shields.io/badge/Testbench-Verilog-yellow)
+![FPGA](https://img.shields.io/badge/FPGA-Fundamentals-purple)
 
 ---
 
-## Memory *(Upcoming)*
+# 🚀 After This Repository
 
-* RAM Design
-
----
-
-# 📈 Skills Gained
-
-* Verilog HDL
-* RTL Design
-* Digital Electronics
-* Functional Simulation
-* Testbench Development
-* Combinational Logic
-* Sequential Logic
-* FPGA Fundamentals
-
----
-
-# 🚀 Future Roadmap
-
-After completing this repository, I plan to learn:
+Next learning goals:
 
 * SystemVerilog
-* FPGA Development Boards
+* FPGA Projects
 * AXI Protocol
 * UART/SPI/I²C Integration
 * RISC-V Processor Design
-* Verification Basics
+* Verification
 * ASIC Design Flow
 
 ---
@@ -201,16 +195,18 @@ If you found this repository useful:
 
 ⭐ Star the repository
 
-🍴 Fork it
+🍴 Fork the repository
 
-📢 Share it with others learning Verilog
+📢 Share it with other Verilog learners
 
 ---
 
 <div align="center">
 
-### Thanks for visiting! 🚀
+## Thanks for Visiting! 🚀
 
-**Happy Coding & Happy Learning!**
+**Happy Coding • Happy Learning • Keep Building**
+
+Made with ❤️ by **Abhiney Kumar**
 
 </div>
