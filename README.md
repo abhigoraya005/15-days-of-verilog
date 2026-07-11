@@ -10,7 +10,7 @@ Design • Simulate • Verify • Learn RTL Design • Build FPGA Foundations
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/abhigoraya005/15-days-of-verilog?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/abhigoraya005/15-days-of-verilog?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/abhigoraya005/15-days-of-verlog?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/abhigoraya005/15-days-of-verilog?style=for-the-badge)
 ![GitHub License](https://img.shields.io/github/license/abhigoraya005/15-days-of-verilog?style=for-the-badge)
 ![Language](https://img.shields.io/badge/Language-Verilog-red?style=for-the-badge)
 ![RTL](https://img.shields.io/badge/RTL-Design-blue?style=for-the-badge)
@@ -27,15 +27,23 @@ Design • Simulate • Verify • Learn RTL Design • Build FPGA Foundations
 
 # 📖 About
 
-This repository documents my **15-Day Verilog Learning Journey**, where I learn Verilog HDL from the fundamentals of **Digital Logic Design** to **Sequential Logic**, **RTL Design**, and **FPGA Development** through practical hands-on projects.
+This repository documents my **15-Day Verilog Learning Journey**, covering digital design from **basic logic gates** to **communication protocols** through structured, hands-on projects.
 
-Each project is designed to reinforce digital design concepts while building a professional GitHub portfolio.
+The objective is to build strong fundamentals in:
 
-Each day's project includes:
+- Digital Logic Design
+- Verilog HDL
+- RTL Design
+- Sequential Logic
+- Finite State Machines
+- Communication Protocols
+- FPGA Development
+
+Each project includes:
 
 - 💻 Verilog Source Code
 - 🧪 Testbench
-- 📄 Detailed Documentation
+- 📄 Documentation
 - 📊 Simulation Results
 - 📚 Learning Notes
 - 🎯 Practical Digital Design Concepts
@@ -44,13 +52,14 @@ Each day's project includes:
 
 # ✨ Repository Highlights
 
-- ✅ 15 Structured Learning Projects
-- ✅ Beginner-Friendly Roadmap
+- ✅ 15 Structured Projects
+- ✅ Beginner-Friendly Learning Path
 - ✅ RTL Design Fundamentals
+- ✅ FSM Design
+- ✅ UART Communication
 - ✅ Functional Simulation
 - ✅ Testbench Development
 - ✅ FPGA-Oriented Projects
-- ✅ Clean & Modular Code
 - ✅ GitHub Portfolio Ready
 
 ---
@@ -59,12 +68,12 @@ Each day's project includes:
 
 | Metric | Value |
 |---------|------:|
-| 📁 Projects Completed | **8 / 15** |
-| 💻 Verilog Modules | **25+** |
-| 🧪 Testbenches | **8** |
-| 📄 Documentation Files | **9** |
+| 📁 Projects Completed | **11 / 15** |
+| 💻 Verilog Modules | **35+** |
+| 🧪 Testbenches | **11** |
+| 📄 README Files | **12** |
 | 🛠 Development Environment | **VS Code + Icarus Verilog** |
-| 🎯 Current Progress | **53%** |
+| 🎯 Current Progress | **73%** |
 
 ---
 
@@ -73,7 +82,7 @@ Each day's project includes:
 | Tool | Purpose |
 |------|---------|
 | VS Code | Development Environment |
-| Icarus Verilog | Verilog Compiler & Simulator |
+| Icarus Verilog | Compiler & Simulator |
 | GTKWave | Waveform Viewer |
 | Git | Version Control |
 | GitHub | Repository Hosting |
@@ -83,7 +92,7 @@ Each day's project includes:
 # 📅 Learning Roadmap
 
 | Day | Topic | Project | Status |
-|:--:|-----------------------|-----------------------------------------|:------:|
+|:--:|-------------------------|-----------------------------------------|:------:|
 | 1 | Logic Gates | AND, OR, XOR & NOT Gates | ✅ |
 | 2 | Adders | Half Adder & Full Adder | ✅ |
 | 3 | Multiplexers | 2:1 & 4:1 Multiplexer | ✅ |
@@ -92,10 +101,10 @@ Each day's project includes:
 | 6 | Flip-Flops | D, SR, JK & T Flip-Flops | ✅ |
 | 7 | Counters | Up, Down & Mod-10 Counters | ✅ |
 | 8 | Shift Registers | SISO, SIPO, PISO & PIPO | ✅ |
-| 9 | Finite State Machine | Traffic Light Controller | ⏳ |
-| 10 | Sequence Detector | 1011 Sequence Detector | ⏳ |
-| 11 | UART Transmitter | UART TX | ⏳ |
-| 12 | UART Receiver | UART RX | ⏳ |
+| 9 | Finite State Machine | Traffic Light Controller | ✅ |
+| 10 | Sequence Detector | 1011 Mealy Sequence Detector | ✅ |
+| 11 | UART Transmitter | UART TX Module | ✅ |
+| 12 | UART Receiver | UART RX Module | ⏳ |
 | 13 | Memory Design | Single-Port RAM | ⏳ |
 | 14 | SPI Communication | SPI Master | ⏳ |
 | 15 | Final Project | Digital System Integration | ⏳ |
@@ -113,13 +122,13 @@ Day 05 ─ 4-bit ALU                ✅
 Day 06 ─ Flip-Flops               ✅
 Day 07 ─ Counters                 ✅
 Day 08 ─ Shift Registers          ✅
-──────────────────────────────────────────
-Day 09 ─ FSM                      ⏳
-Day 10 ─ Sequence Detector        ⏳
-Day 11 ─ UART TX                  ⏳
-Day 12 ─ UART RX                  ⏳
+Day 09 ─ Traffic Light FSM        ✅
+Day 10 ─ Sequence Detector        ✅
+Day 11 ─ UART Transmitter         ✅
+────────────────────────────────────────────
+Day 12 ─ UART Receiver            ⏳
 Day 13 ─ RAM                      ⏳
-Day 14 ─ SPI                      ⏳
+Day 14 ─ SPI Master               ⏳
 Day 15 ─ Final Project            ⏳
 ```
 
@@ -129,12 +138,12 @@ Day 15 ─ Final Project            ⏳
 
 | Completed | Remaining |
 |-----------|-----------|
-| **8 / 15 Projects** | **7 Projects** |
+| **11 / 15 Projects** | **4 Projects** |
 
 ## Overall Progress
 
 ```
-███████████░░░░░░░░░ 53%
+███████████████░░░░░ 73%
 ```
 
 ---
@@ -165,11 +174,12 @@ Day 15 ─ Final Project            ⏳
 
 # 🎯 Learning Objectives
 
-- Learn Verilog HDL from scratch
-- Understand Digital Logic Design
-- Master Combinational Logic
-- Master Sequential Logic
-- Build Synthesizable RTL
+- Learn Verilog HDL
+- Design Combinational Circuits
+- Design Sequential Circuits
+- Build Finite State Machines
+- Implement Communication Protocols
+- Develop Synthesizable RTL
 - Write Professional Testbenches
 - Perform Functional Simulation
 - Prepare for FPGA Development
@@ -187,7 +197,7 @@ Day 15 ─ Final Project            ⏳
 - Decoder
 - Encoder
 - Priority Encoder
-- Arithmetic Logic Unit (ALU)
+- 4-bit ALU
 
 ---
 
@@ -207,72 +217,75 @@ Day 15 ─ Final Project            ⏳
 
 ---
 
-## 🚧 Upcoming Topics
-
-### Finite State Machines
+## ✅ Finite State Machines
 
 - Traffic Light Controller
-- Sequence Detector
+- 1011 Sequence Detector (Mealy FSM)
 
-### Communication Protocols
+---
+
+## ✅ Communication Protocols
 
 - UART Transmitter
+
+---
+
+## 🚧 Upcoming Projects
+
 - UART Receiver
-- SPI Master
-
-### Memory Design
-
 - Single-Port RAM
-
-### Final Integration
-
-- Digital System Project
+- SPI Master
+- Final Digital System Integration
 
 ---
 
 # 💡 Technical Skills Developed
 
-![Verilog](https://img.shields.io/badge/Verilog-HDL-red)
-![RTL](https://img.shields.io/badge/RTL-Design-blue)
-![Digital Logic](https://img.shields.io/badge/Digital-Logic-success)
-![Sequential Logic](https://img.shields.io/badge/Sequential-Logic-orange)
-![Simulation](https://img.shields.io/badge/Simulation-Icarus-important)
-![Testbench](https://img.shields.io/badge/Testbench-Verilog-yellow)
-![FPGA](https://img.shields.io/badge/FPGA-Fundamentals-purple)
+- Verilog HDL
+- RTL Design
+- Combinational Logic
+- Sequential Logic
+- Finite State Machines (FSM)
+- UART Communication
+- Testbench Development
+- Functional Simulation
+- Digital System Design
+- FPGA Fundamentals
 
 ---
 
 # 🏆 Milestones
 
-- ✅ Completed 8 Verilog Projects
-- ✅ Designed 25+ Verilog Modules
+- ✅ Completed 11 Verilog Projects
+- ✅ Designed 35+ Verilog Modules
 - ✅ Created Testbenches for Every Project
 - ✅ Learned RTL Design Fundamentals
-- ✅ Completed Core Combinational Logic
-- ✅ Completed Core Sequential Logic
-- 🚀 Currently Learning Finite State Machines (FSM)
+- ✅ Completed Combinational Logic
+- ✅ Completed Sequential Logic
+- ✅ Implemented Finite State Machines
+- ✅ Built UART Transmitter
 
 ---
 
-# 🚀 What's Next?
+# 🚀 After This Repository
 
-After completing this repository, the next roadmap includes:
+Next learning goals:
 
 - SystemVerilog
 - FPGA Development Boards
-- UART/SPI/I²C Integration
 - AXI Protocol
+- UART/SPI/I²C Integration
 - RISC-V Processor Design
-- Verification Methodologies
+- Verification (UVM Basics)
 - ASIC Design Flow
 
 ---
 
 # 🤝 Contributing
 
-Suggestions, improvements, and feedback are always welcome.
+Suggestions, improvements, and feedback are welcome.
 
-If you find any issue or have ideas for enhancement, feel free to open an Issue or submit a Pull Request.
+If you find an issue or have ideas for enhancement, feel free to open an Issue or submit a Pull Request.
 
 ---
 
@@ -280,11 +293,11 @@ If you find any issue or have ideas for enhancement, feel free to open an Issue 
 
 If you found this repository helpful:
 
-⭐ Star this repository
+⭐ Star the repository
 
 🍴 Fork the repository
 
-📢 Share it with others learning Verilog
+📢 Share it with other Verilog learners
 
 ---
 
@@ -296,6 +309,6 @@ If you found this repository helpful:
 
 Made with ❤️ by **Abhiney Kumar**
 
-*"Every module written today is a step closer to becoming an Embedded Systems & FPGA Engineer."*
+*"Every module written today is another step toward becoming an Embedded Firmware & FPGA Engineer."*
 
 </div>
