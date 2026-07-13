@@ -1,158 +1,101 @@
-<div align="center">
-
 # 🚀 15 Days of Verilog
 
-### **A Beginner-to-Intermediate Verilog HDL Learning Journey**
+> **A Beginner-to-Intermediate Verilog HDL Learning Journey**
 
-<p align="center">
-Design • Simulate • Verify • Learn RTL Design • Build FPGA Foundations
-</p>
+Build • Simulate • Verify • Learn RTL Design • Build FPGA Foundations
 
-![GitHub last commit](https://img.shields.io/github/last-commit/abhigoraya005/15-days-of-verilog?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/abhigoraya005/15-days-of-verilog?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/abhigoraya005/15-days-of-verilog?style=for-the-badge)
-![GitHub License](https://img.shields.io/github/license/abhigoraya005/15-days-of-verilog?style=for-the-badge)
+![GitHub last
+commit](https://img.shields.io/github/last-commit/abhigoraya005/15-days-of-verilog?style=for-the-badge)
+![GitHub repo
+size](https://img.shields.io/github/repo-size/abhigoraya005/15-days-of-verilog?style=for-the-badge)
+![GitHub
+stars](https://img.shields.io/github/stars/abhigoraya005/15-days-of-verilog?style=for-the-badge)
+![GitHub
+License](https://img.shields.io/github/license/abhigoraya005/15-days-of-verilog?style=for-the-badge)
 ![Language](https://img.shields.io/badge/Language-Verilog-red?style=for-the-badge)
 ![RTL](https://img.shields.io/badge/RTL-Design-blue?style=for-the-badge)
 
----
-
-### 📚 Learning Verilog One Day at a Time
-
-*"The best way to learn hardware design is by building hardware."*
-
-</div>
-
----
+------------------------------------------------------------------------
 
 # 📖 About
 
-This repository documents my **15-Day Verilog Learning Journey**, covering digital design from **basic logic gates** to **communication protocols** through structured, hands-on projects.
+This repository documents my **15-Day Verilog Learning Journey**,
+progressing from basic logic gates to an integrated digital system
+through structured, hands-on projects.
 
-The objective is to build strong fundamentals in:
+## ✨ Highlights
 
-- Digital Logic Design
-- Verilog HDL
-- RTL Design
-- Sequential Logic
-- Finite State Machines
-- Communication Protocols
-- FPGA Development
+-   ✅ 15 Hands-on Projects
+-   ✅ Beginner → Intermediate Roadmap
+-   ✅ RTL Design
+-   ✅ FSM Design
+-   ✅ UART & SPI
+-   ✅ RAM Design
+-   ✅ Testbench Development
+-   ✅ Functional Simulation
+-   ✅ GitHub Portfolio Ready
 
-Each project includes:
-
-- 💻 Verilog Source Code
-- 🧪 Testbench
-- 📄 Documentation
-- 📊 Simulation Results
-- 📚 Learning Notes
-- 🎯 Practical Digital Design Concepts
-
----
-
-# ✨ Repository Highlights
-
-- ✅ 15 Structured Projects
-- ✅ Beginner-Friendly Learning Path
-- ✅ RTL Design Fundamentals
-- ✅ FSM Design
-- ✅ UART Communication
-- ✅ Functional Simulation
-- ✅ Testbench Development
-- ✅ FPGA-Oriented Projects
-- ✅ GitHub Portfolio Ready
-
----
+------------------------------------------------------------------------
 
 # 📊 Repository Statistics
 
-| Metric | Value |
-|---------|------:|
-| 📁 Projects Completed | **11 / 15** |
-| 💻 Verilog Modules | **35+** |
-| 🧪 Testbenches | **11** |
-| 📄 README Files | **12** |
-| 🛠 Development Environment | **VS Code + Icarus Verilog** |
-| 🎯 Current Progress | **73%** |
+  Metric                        Value
+  --------------------- -------------
+  Projects                **15 / 15**
+  Verilog Modules             **45+**
+  Testbenches                  **15**
+  Documentation Files          **16**
+  Progress                   **100%**
 
----
+------------------------------------------------------------------------
 
 # 🛠 Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| VS Code | Development Environment |
-| Icarus Verilog | Compiler & Simulator |
-| GTKWave | Waveform Viewer |
-| Git | Version Control |
-| GitHub | Repository Hosting |
+  Tool             Purpose
+  ---------------- --------------------------
+  VS Code          Development
+  Icarus Verilog   Compilation & Simulation
+  GTKWave          Waveform Viewer
+  Git              Version Control
+  GitHub           Hosting
 
----
+------------------------------------------------------------------------
 
 # 📅 Learning Roadmap
 
-| Day | Topic | Project | Status |
-|:--:|-------------------------|-----------------------------------------|:------:|
-| 1 | Logic Gates | AND, OR, XOR & NOT Gates | ✅ |
-| 2 | Adders | Half Adder & Full Adder | ✅ |
-| 3 | Multiplexers | 2:1 & 4:1 Multiplexer | ✅ |
-| 4 | Decoder & Encoder | Decoder, Encoder & Priority Encoder | ✅ |
-| 5 | Arithmetic Logic Unit | 4-bit ALU | ✅ |
-| 6 | Flip-Flops | D, SR, JK & T Flip-Flops | ✅ |
-| 7 | Counters | Up, Down & Mod-10 Counters | ✅ |
-| 8 | Shift Registers | SISO, SIPO, PISO & PIPO | ✅ |
-| 9 | Finite State Machine | Traffic Light Controller | ✅ |
-| 10 | Sequence Detector | 1011 Mealy Sequence Detector | ✅ |
-| 11 | UART Transmitter | UART TX Module | ✅ |
-| 12 | UART Receiver | UART RX Module | ⏳ |
-| 13 | Memory Design | Single-Port RAM | ⏳ |
-| 14 | SPI Communication | SPI Master | ⏳ |
-| 15 | Final Project | Digital System Integration | ⏳ |
+   Day  Topic                           Status
+  ----- ------------------------------ --------
+    1   Logic Gates                       ✅
+    2   Half & Full Adders                ✅
+    3   Multiplexers                      ✅
+    4   Decoder & Encoder                 ✅
+    5   4-bit ALU                         ✅
+    6   Flip-Flops                        ✅
+    7   Counters                          ✅
+    8   Shift Registers                   ✅
+    9   Traffic Light FSM                 ✅
+   10   1011 Sequence Detector            ✅
+   11   UART TX                           ✅
+   12   UART RX                           ✅
+   13   Single-Port RAM                   ✅
+   14   SPI Master                        ✅
+   15   Mini Embedded Digital System      ✅
 
----
+------------------------------------------------------------------------
 
-# 📈 Learning Timeline
+# 📈 Progress
 
-```text
-Day 01 ─ Logic Gates              ✅
-Day 02 ─ Half & Full Adders       ✅
-Day 03 ─ Multiplexers             ✅
-Day 04 ─ Decoder & Encoder        ✅
-Day 05 ─ 4-bit ALU                ✅
-Day 06 ─ Flip-Flops               ✅
-Day 07 ─ Counters                 ✅
-Day 08 ─ Shift Registers          ✅
-Day 09 ─ Traffic Light FSM        ✅
-Day 10 ─ Sequence Detector        ✅
-Day 11 ─ UART Transmitter         ✅
-────────────────────────────────────────────
-Day 12 ─ UART Receiver            ⏳
-Day 13 ─ RAM                      ⏳
-Day 14 ─ SPI Master               ⏳
-Day 15 ─ Final Project            ⏳
+``` text
+████████████████████ 100%
+15 / 15 Projects Completed
 ```
 
----
-
-# 📊 Progress
-
-| Completed | Remaining |
-|-----------|-----------|
-| **11 / 15 Projects** | **4 Projects** |
-
-## Overall Progress
-
-```
-███████████████░░░░░ 73%
-```
-
----
+------------------------------------------------------------------------
 
 # 📂 Repository Structure
 
-```text
-15-days-of-verilog
-│
+``` text
+15-days-of-verilog/
 ├── Day01_Logic_Gates
 ├── Day02_Adders
 ├── Day03_Multiplexers
@@ -170,145 +113,109 @@ Day 15 ─ Final Project            ⏳
 └── Day15_Final_Project
 ```
 
----
-
-# 🎯 Learning Objectives
-
-- Learn Verilog HDL
-- Design Combinational Circuits
-- Design Sequential Circuits
-- Build Finite State Machines
-- Implement Communication Protocols
-- Develop Synthesizable RTL
-- Write Professional Testbenches
-- Perform Functional Simulation
-- Prepare for FPGA Development
-
----
+------------------------------------------------------------------------
 
 # 📚 Topics Covered
 
-## ✅ Combinational Logic
+## Combinational Logic
 
-- Logic Gates
-- Half Adder
-- Full Adder
-- Multiplexers
-- Decoder
-- Encoder
-- Priority Encoder
-- 4-bit ALU
+-   Logic Gates
+-   Adders
+-   Multiplexers
+-   Decoder & Encoder
+-   4-bit ALU
 
----
+## Sequential Logic
 
-## ✅ Sequential Logic
+-   D, SR, JK & T Flip-Flops
+-   Counters
+-   Shift Registers
 
-- D Flip-Flop
-- SR Flip-Flop
-- JK Flip-Flop
-- T Flip-Flop
-- Up Counter
-- Down Counter
-- Mod-10 Counter
-- SISO Shift Register
-- SIPO Shift Register
-- PISO Shift Register
-- PIPO Shift Register
+## FSM
 
----
+-   Traffic Light Controller
+-   Sequence Detector
 
-## ✅ Finite State Machines
+## Communication
 
-- Traffic Light Controller
-- 1011 Sequence Detector (Mealy FSM)
+-   UART TX
+-   UART RX
+-   SPI Master
 
----
+## Memory
 
-## ✅ Communication Protocols
+-   Single-Port RAM
 
-- UART Transmitter
+## Capstone
 
----
+-   Mini Embedded Digital System
 
-## 🚧 Upcoming Projects
+------------------------------------------------------------------------
 
-- UART Receiver
-- Single-Port RAM
-- SPI Master
-- Final Digital System Integration
+# 💡 Skills Developed
 
----
+-   Verilog HDL
+-   RTL Design
+-   Digital Logic Design
+-   FSM Design
+-   Memory Design
+-   UART & SPI
+-   Testbench Development
+-   Functional Simulation
+-   Hierarchical Design
+-   FPGA Fundamentals
 
-# 💡 Technical Skills Developed
-
-- Verilog HDL
-- RTL Design
-- Combinational Logic
-- Sequential Logic
-- Finite State Machines (FSM)
-- UART Communication
-- Testbench Development
-- Functional Simulation
-- Digital System Design
-- FPGA Fundamentals
-
----
+------------------------------------------------------------------------
 
 # 🏆 Milestones
 
-- ✅ Completed 11 Verilog Projects
-- ✅ Designed 35+ Verilog Modules
-- ✅ Created Testbenches for Every Project
-- ✅ Learned RTL Design Fundamentals
-- ✅ Completed Combinational Logic
-- ✅ Completed Sequential Logic
-- ✅ Implemented Finite State Machines
-- ✅ Built UART Transmitter
+-   ✅ Completed 15 Projects
+-   ✅ Built 45+ Verilog Modules
+-   ✅ Wrote 15 Testbenches
+-   ✅ Designed an Integrated Digital System
+-   ✅ Completed Beginner-to-Intermediate Verilog Roadmap
 
----
+------------------------------------------------------------------------
 
-# 🚀 After This Repository
+# 🚀 What's Next?
 
-Next learning goals:
+-   SystemVerilog
+-   Advanced Verification
+-   UVM Basics
+-   FIFO Design
+-   Dual-Port RAM
+-   I²C
+-   AXI
+-   RISC-V
+-   FPGA Boards
+-   ASIC Design Flow
 
-- SystemVerilog
-- FPGA Development Boards
-- AXI Protocol
-- UART/SPI/I²C Integration
-- RISC-V Processor Design
-- Verification (UVM Basics)
-- ASIC Design Flow
-
----
+------------------------------------------------------------------------
 
 # 🤝 Contributing
 
-Suggestions, improvements, and feedback are welcome.
+Suggestions and improvements are welcome. Feel free to open an issue or
+submit a pull request.
 
-If you find an issue or have ideas for enhancement, feel free to open an Issue or submit a Pull Request.
-
----
+------------------------------------------------------------------------
 
 # ⭐ Support
 
-If you found this repository helpful:
+If you found this repository useful:
 
-⭐ Star the repository
+-   ⭐ Star the repository
+-   🍴 Fork it
+-   📢 Share it with other Verilog learners
 
-🍴 Fork the repository
+------------------------------------------------------------------------
 
-📢 Share it with other Verilog learners
+::: {align="center"}
+# 🎉 Journey Complete
 
----
-
-<div align="center">
-
-## 🎉 Thanks for Visiting!
-
-### Keep Building • Keep Learning • Keep Growing 🚀
+**15 Days • 15 Projects • One Complete Verilog Journey**
 
 Made with ❤️ by **Abhiney Kumar**
 
-*"Every module written today is another step toward becoming an Embedded Firmware & FPGA Engineer."*
-
-</div>
+*Every completed project is another step toward becoming an Embedded
+Systems & FPGA Engineer.*
+:::
