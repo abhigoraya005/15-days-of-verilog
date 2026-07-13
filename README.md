@@ -3,7 +3,7 @@
 > **A Beginner-to-Intermediate Verilog HDL Learning Journey**
 
 Build • Simulate • Verify • Learn RTL Design • Build FPGA Foundations
-
+![Verilog CI](https://github.com/abhigoraya005/15-days-of-verilog/actions/workflows/verilog.yml/badge.svg)
 ![GitHub last
 commit](https://img.shields.io/github/last-commit/abhigoraya005/15-days-of-verilog?style=for-the-badge)
 ![GitHub repo
