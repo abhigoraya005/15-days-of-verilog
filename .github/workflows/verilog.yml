@@ -2,17 +2,12 @@ name: Verilog CI
 
 on:
   push:
-    branches:
-      - main
-      - master
-
+    branches: [main]
   pull_request:
-    branches:
-      - main
-      - master
+    branches: [main]
 
 jobs:
-  build:
+  compile:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,11 +22,77 @@ jobs:
       - name: Verify Installation
         run: iverilog -V
 
-      - name: Compile All Verilog Files
+      - name: Compile Day 1
         run: |
-          find . -name "*.v" > sources.txt
-          if [ -s sources.txt ]; then
-            iverilog -o simulation @sources.txt
-          else
-            echo "No Verilog files found."
-          fi
+          cd Day01_And_gate
+          iverilog -o sim *.v
+
+      - name: Compile Day 2
+        run: |
+          cd Day02_Adders
+          iverilog -o sim *.v
+
+      - name: Compile Day 3
+        run: |
+          cd Day03_Multiplexers
+          iverilog -o sim *.v
+
+      - name: Compile Day 4
+        run: |
+          cd Day04_Decoder_Encoder
+          iverilog -o sim *.v
+
+      - name: Compile Day 5
+        run: |
+          cd Day05_ALU
+          iverilog -o sim *.v
+
+      - name: Compile Day 6
+        run: |
+          cd Day06_FlipFlops
+          iverilog -o sim *.v
+
+      - name: Compile Day 7
+        run: |
+          cd Day07_Counters
+          iverilog -o sim *.v
+
+      - name: Compile Day 8
+        run: |
+          cd Day08_ShiftRegisters
+          iverilog -o sim *.v
+
+      - name: Compile Day 9
+        run: |
+          cd Day09_FSM
+          iverilog -o sim *.v
+
+      - name: Compile Day 10
+        run: |
+          cd Day10_SequenceDetector
+          iverilog -o sim *.v
+
+      - name: Compile Day 11
+        run: |
+          cd Day11_UART_TX
+          iverilog -o sim *.v
+
+      - name: Compile Day 12
+        run: |
+          cd Day12_UART_RX
+          iverilog -o sim *.v
+
+      - name: Compile Day 13
+        run: |
+          cd Day13_RAM
+          iverilog -o sim *.v
+
+      - name: Compile Day 14
+        run: |
+          cd Day14_SPI
+          iverilog -o sim *.v
+
+      - name: Compile Day 15
+        run: |
+          cd Day15_Final_Project
+          iverilog -o sim *.v
