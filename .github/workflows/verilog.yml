@@ -1,0 +1,37 @@
+name: Verilog CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Icarus Verilog
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y iverilog
+
+      - name: Verify Installation
+        run: iverilog -V
+
+      - name: Compile All Verilog Files
+        run: |
+          find . -name "*.v" > sources.txt
+          if [ -s sources.txt ]; then
+            iverilog -o simulation @sources.txt
+          else
+            echo "No Verilog files found."
+          fi
